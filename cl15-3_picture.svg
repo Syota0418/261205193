@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200" role="img" aria-label="山から朝日がのぼる風景のイラスト">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd9a0"/>
+      <stop offset="55%" stop-color="#ffe9c7"/>
+      <stop offset="100%" stop-color="#eafaf1"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff7d6"/>
+      <stop offset="100%" stop-color="#ffb347"/>
+    </radialGradient>
+  </defs>
+
+  <!-- 空 -->
+  <rect x="0" y="0" width="320" height="200" fill="url(#sky)"/>
+
+  <!-- 太陽 -->
+  <circle cx="160" cy="118" r="34" fill="url(#sun)"/>
+
+  <!-- 遠くの山（うしろ） -->
+  <path d="M0 150 L70 92 L130 150 Z" fill="#9fc6a6"/>
+  <path d="M190 150 L260 88 L320 150 Z" fill="#9fc6a6"/>
+
+  <!-- 近くの山（手前） -->
+  <path d="M-10 160 L60 110 L150 160 Z" fill="#5fa777"/>
+  <path d="M150 160 L240 104 L330 160 Z" fill="#4f9468"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="158" width="320" height="42" fill="#3f8a5b"/>
+
+  <!-- 木 -->
+  <g>
+    <rect x="46" y="150" width="6" height="16" fill="#7a4b2b"/>
+    <circle cx="49" cy="146" r="12" fill="#357a4e"/>
+  </g>
+  <g>
+    <rect x="270" y="150" width="6" height="16" fill="#7a4b2b"/>
+    <circle cx="273" cy="146" r="12" fill="#357a4e"/>
+  </g>
+
+  <!-- 鳥 -->
+  <path d="M96 56 q6 -7 12 0 q6 -7 12 0" fill="none" stroke="#6b5b4b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M210 44 q5 -6 10 0 q5 -6 10 0" fill="none" stroke="#6b5b4b" stroke-width="2" stroke-linecap="round"/>
+</svg>
